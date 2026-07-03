@@ -1,0 +1,146 @@
+Logging into the bioreactor...
+Generating 10 LHS recipes...
+
+--- Testing Recipe 1/10 ---
+  Running MICRO (Repeat 1/3)... Result: Y = 0.0918, Cost = 10 EUR
+  Running MICRO (Repeat 2/3)... Result: Y = 0.1335, Cost = 10 EUR
+  Running MICRO (Repeat 3/3)... Result: Y = 0.1273, Cost = 10 EUR
+  Running BENCH (Repeat 1/3)... Result: Y = 3.2048, Cost = 500 EUR
+  Running BENCH (Repeat 2/3)... Result: Y = 3.3347, Cost = 500 EUR
+  Running BENCH (Repeat 3/3)... Result: Y = 3.2255, Cost = 500 EUR
+  Running PILOT (Repeat 1/3)... Result: Y = 1.2984, Cost = 2000 EUR
+  Running PILOT (Repeat 2/3)... Result: Y = 1.3007, Cost = 2000 EUR
+  Running PILOT (Repeat 3/3)... Result: Y = 1.3029, Cost = 2000 EUR
+
+--- Testing Recipe 2/10 ---
+  Running MICRO (Repeat 1/3)... Result: Y = 0.1478, Cost = 10 EUR
+  Running MICRO (Repeat 2/3)... Result: Y = 0.1224, Cost = 10 EUR
+  Running MICRO (Repeat 3/3)... Result: Y = 0.1044, Cost = 10 EUR
+  Running BENCH (Repeat 1/3)... Result: Y = 2.8897, Cost = 500 EUR
+  Running BENCH (Repeat 2/3)... Result: Y = 2.8697, Cost = 500 EUR
+  Running BENCH (Repeat 3/3)... Result: Y = 2.8230, Cost = 500 EUR
+  Running PILOT (Repeat 1/3)... Result: Y = 1.1767, Cost = 2000 EUR
+  Running PILOT (Repeat 2/3)... Result: Y = 1.1711, Cost = 2000 EUR
+  Running PILOT (Repeat 3/3)... Result: Y = 1.1698, Cost = 2000 EUR
+
+--- Testing Recipe 3/10 ---
+  Running MICRO (Repeat 1/3)... Result: Y = 0.1523, Cost = 10 EUR
+  Running MICRO (Repeat 2/3)... Result: Y = 0.1305, Cost = 10 EUR
+  Running MICRO (Repeat 3/3)... Result: Y = 0.0842, Cost = 10 EUR
+  Running BENCH (Repeat 1/3)... Result: Y = 3.6727, Cost = 500 EUR
+  Running BENCH (Repeat 2/3)... Result: Y = 3.6817, Cost = 500 EUR
+  Running BENCH (Repeat 3/3)... Result: Y = 3.6621, Cost = 500 EUR
+  Running PILOT (Repeat 1/3)... Result: Y = 1.4958, Cost = 2000 EUR
+  Running PILOT (Repeat 2/3)... Result: Y = 1.4945, Cost = 2000 EUR
+  Running PILOT (Repeat 3/3)... Result: Y = 1.4976, Cost = 2000 EUR
+
+--- Testing Recipe 4/10 ---
+  Running MICRO (Repeat 1/3)... Result: Y = 0.1273, Cost = 10 EUR
+  Running MICRO (Repeat 2/3)... Result: Y = 0.1179, Cost = 10 EUR
+  Running MICRO (Repeat 3/3)... Result: Y = 0.1178, Cost = 10 EUR
+  Running BENCH (Repeat 1/3)...   [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+Result: Y = 3.1582, Cost = 500 EUR
+  Running BENCH (Repeat 2/3)... Result: Y = 2.9458, Cost = 500 EUR
+  Running BENCH (Repeat 3/3)... Result: Y = 3.1018, Cost = 500 EUR
+  Running PILOT (Repeat 1/3)... Result: Y = 1.2531, Cost = 2000 EUR
+  Running PILOT (Repeat 2/3)... Result: Y = 1.2539, Cost = 2000 EUR
+  Running PILOT (Repeat 3/3)... Result: Y = 1.2595, Cost = 2000 EUR
+
+--- Testing Recipe 5/10 ---
+  Running MICRO (Repeat 1/3)... Result: Y = 0.1524, Cost = 10 EUR
+  Running MICRO (Repeat 2/3)... Result: Y = 0.1250, Cost = 10 EUR
+  Running MICRO (Repeat 3/3)... Result: Y = 0.1203, Cost = 10 EUR
+  Running BENCH (Repeat 1/3)... Result: Y = 3.2137, Cost = 500 EUR
+  Running BENCH (Repeat 2/3)... Result: Y = 3.2858, Cost = 500 EUR
+  Running BENCH (Repeat 3/3)... Result: Y = 3.3695, Cost = 500 EUR
+  Running PILOT (Repeat 1/3)... Result: Y = 1.3324, Cost = 2000 EUR
+  Running PILOT (Repeat 2/3)... Result: Y = 1.3281, Cost = 2000 EUR
+  Running PILOT (Repeat 3/3)... Result: Y = 1.3309, Cost = 2000 EUR
+
+--- Testing Recipe 6/10 ---
+  Running MICRO (Repeat 1/3)... Result: Y = 0.2054, Cost = 10 EUR
+  Running MICRO (Repeat 2/3)... Result: Y = 0.1991, Cost = 10 EUR
+  Running MICRO (Repeat 3/3)... Result: Y = 0.2054, Cost = 10 EUR
+  Running BENCH (Repeat 1/3)... Result: Y = 6.5088, Cost = 500 EUR
+  Running BENCH (Repeat 2/3)... Result: Y = 6.5747, Cost = 500 EUR
+  Running BENCH (Repeat 3/3)... Result: Y = 6.5764, Cost = 500 EUR
+  Running PILOT (Repeat 1/3)... Result: Y = 2.9252, Cost = 2000 EUR
+  Running PILOT (Repeat 2/3)... Result: Y = 2.9120, Cost = 2000 EUR
+  Running PILOT (Repeat 3/3)... Result: Y = 2.9262, Cost = 2000 EUR
+
+--- Testing Recipe 7/10 ---
+  Running MICRO (Repeat 1/3)... Result: Y = 0.1982, Cost = 10 EUR
+  Running MICRO (Repeat 2/3)... Result: Y = 0.2011, Cost = 10 EUR
+  Running MICRO (Repeat 3/3)... Result: Y = 0.1864, Cost = 10 EUR
+  Running BENCH (Repeat 1/3)... Result: Y = 4.2844, Cost = 500 EUR
+  Running BENCH (Repeat 2/3)... Result: Y = 4.2614, Cost = 500 EUR
+  Running BENCH (Repeat 3/3)... Result: Y = 4.2039, Cost = 500 EUR
+  Running PILOT (Repeat 1/3)...   [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+Result: Y = 1.8334, Cost = 2000 EUR
+  Running PILOT (Repeat 2/3)... Result: Y = 1.8339, Cost = 2000 EUR
+  Running PILOT (Repeat 3/3)... Result: Y = 1.8308, Cost = 2000 EUR
+
+--- Testing Recipe 8/10 ---
+  Running MICRO (Repeat 1/3)... Result: Y = 0.1280, Cost = 10 EUR
+  Running MICRO (Repeat 2/3)... Result: Y = 0.0954, Cost = 10 EUR
+  Running MICRO (Repeat 3/3)... Result: Y = 0.1063, Cost = 10 EUR
+  Running BENCH (Repeat 1/3)... Result: Y = 2.9758, Cost = 500 EUR
+  Running BENCH (Repeat 2/3)... Result: Y = 2.8574, Cost = 500 EUR
+  Running BENCH (Repeat 3/3)... Result: Y = 2.9781, Cost = 500 EUR
+  Running PILOT (Repeat 1/3)... Result: Y = 1.1464, Cost = 2000 EUR
+  Running PILOT (Repeat 2/3)... Result: Y = 1.1386, Cost = 2000 EUR
+  Running PILOT (Repeat 3/3)... Result: Y = 1.1354, Cost = 2000 EUR
+
+--- Testing Recipe 9/10 ---
+  Running MICRO (Repeat 1/3)... Result: Y = 0.1722, Cost = 10 EUR
+  Running MICRO (Repeat 2/3)... Result: Y = 0.1822, Cost = 10 EUR
+  Running MICRO (Repeat 3/3)... Result: Y = 0.1925, Cost = 10 EUR
+  Running BENCH (Repeat 1/3)... Result: Y = 3.7762, Cost = 500 EUR
+  Running BENCH (Repeat 2/3)... Result: Y = 4.0125, Cost = 500 EUR
+  Running BENCH (Repeat 3/3)... Result: Y = 3.9894, Cost = 500 EUR
+  Running PILOT (Repeat 1/3)... Result: Y = 1.6450, Cost = 2000 EUR
+  Running PILOT (Repeat 2/3)... Result: Y = 1.6539, Cost = 2000 EUR
+  Running PILOT (Repeat 3/3)... Result: Y = 1.6501, Cost = 2000 EUR
+
+--- Testing Recipe 10/10 ---
+  Running MICRO (Repeat 1/3)... Result: Y = 0.2015, Cost = 10 EUR
+  Running MICRO (Repeat 2/3)... Result: Y = 0.1844, Cost = 10 EUR
+  Running MICRO (Repeat 3/3)... Result: Y = 0.2185, Cost = 10 EUR
+  Running BENCH (Repeat 1/3)... Result: Y = 4.0012, Cost = 500 EUR
+  Running BENCH (Repeat 2/3)... Result: Y = 4.1472, Cost = 500 EUR
+  Running BENCH (Repeat 3/3)... Result: Y = 4.0732, Cost = 500 EUR
+  Running PILOT (Repeat 1/3)... Result: Y = 1.7406, Cost = 2000 EUR
+  Running PILOT (Repeat 2/3)... Result: Y = 1.7342, Cost = 2000 EUR
+  Running PILOT (Repeat 3/3)... Result: Y = 1.7300, Cost = 2000 EUR
+
+Exploration Complete! Data saved to 'exploratory_data.csv'.
+Total budget spent on exploration: 75300.0 EUR
+
+=====================================
+ NOISE AND BIAS ANALYSIS
+=====================================
+
+--- Measurement Noise ---
+Scale  Average_Variance (Noise)
+bench                  0.005460
+micro                  0.000327
+pilot                  0.000018
+ -> Saved noise analysis to 'noise_analysis.csv'
+
+--- Measurement Bias (Relative to Pilot) ---
+Scale  Average_Bias  Mean_Absolute_Bias
+micro     -1.432325            1.432325
+bench      2.205267            2.205267
+pilot      0.000000            0.000000
+ -> Saved bias analysis to 'bias_analysis.csv'
+
+Generating Phase 1 visualization...
+ -> Saved visualization to 'phase1_profiling.png'
