@@ -1,0 +1,21 @@
+Logging into the bioreactor...
+Budget: 15000 EUR. Afforded Pilot runs: 7
+
+Starting Baseline LHS Campaign (Pilot Only)...
+  Run 1/7... Result: Y = 0.9118 (Best so far: 0.9118)
+  Run 2/7... Result: Y = 1.8386 (Best so far: 1.8386)
+  Run 3/7... Result: Y = 1.6659 (Best so far: 1.8386)
+  Run 4/7... Result: Y = 1.4203 (Best so far: 1.8386)
+  Run 5/7... Result: Y = 1.5091 (Best so far: 1.8386)
+  Run 6/7... Result: Y = 1.3941 (Best so far: 1.8386)
+  Run 7/7... Result: Y = 1.2262 (Best so far: 1.8386)
+
+=====================================
+ BASELINE CAMPAIGN COMPLETE
+=====================================
+Total Cost Spent: 14000.0 EUR
+Best Pilot Y Found: 1.8386 g/L
+Data saved to 'baseline_results.csv'
+
+Generating Phase 2 visualization...
+ -> Saved visualization to 'baseline_trajectory.png'
