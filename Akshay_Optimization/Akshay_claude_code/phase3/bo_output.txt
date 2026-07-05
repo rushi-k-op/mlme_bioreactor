@@ -1,0 +1,595 @@
+Logging into the bioreactor...
+
+===== SEED 0: STAGE A - cheap wide MICRO screening =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Screening complete: 150 micro runs, 1500/15000 EUR spent so far.
+
+===== SEED 0: STAGE B - Multi-fidelity BO (bench-driven, pilot-verified) =====
+
+--- Seed 0 | Iter 150 | Spent 1500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=37.09, pH=9.49, F1=2.00, F2=2.00, F3=2.00
+  GP prediction (pilot-eq) -> 4.916 +/- 0.465
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Result -> Actual Y = 2.0500
+
+--- Seed 0 | Iter 151 | Spent 3500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=33.57, pH=8.02, F1=2.00, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 5.206 +/- 0.499
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 2.5130
+
+--- Seed 0 | Iter 152 | Spent 5500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=37.47, pH=3.03, F1=2.00, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 3.978 +/- 0.518
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 1.9673
+
+--- Seed 0 | Iter 153 | Spent 7500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=38.63, pH=9.49, F1=2.00, F2=0.02, F3=2.00
+  GP prediction (pilot-eq) -> 3.375 +/- 0.480
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 1.9683
+
+--- Seed 0 | Iter 154 | Spent 9500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=37.22, pH=7.62, F1=2.00, F2=1.91, F3=2.00
+  GP prediction (pilot-eq) -> 4.538 +/- 0.499
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 6.0764
+  *** NEW BEST PILOT Y: 6.0764 ***
+
+--- Seed 0 | Iter 155 | Spent 11500/15000 EUR | Best pilot Y so far: 6.076 ---
+  Candidate recipe -> T=36.34, pH=7.79, F1=0.47, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 4.267 +/- 0.589
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 5.8049
+
+--- Seed 0 | Iter 156 | Spent 12000/15000 EUR | Best pilot Y so far: 6.076 ---
+  Candidate recipe -> T=36.69, pH=7.27, F1=2.00, F2=0.01, F3=0.65
+  GP prediction (pilot-eq) -> 4.250 +/- 0.555
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 6.6078
+
+--- Seed 0 | Iter 157 | Spent 12500/15000 EUR | Best pilot Y so far: 6.076 ---
+  Candidate recipe -> T=39.29, pH=7.93, F1=1.98, F2=0.10, F3=1.98
+  GP prediction (pilot-eq) -> 4.581 +/- 0.508
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 4.4637
+
+--- Seed 0 | Iter 158 | Spent 13000/15000 EUR | Best pilot Y so far: 6.076 ---
+  Candidate recipe -> T=49.31, pH=3.00, F1=0.00, F2=2.00, F3=2.00
+  GP prediction (pilot-eq) -> 1.773 +/- 0.728
+  SCALE CHOSEN -> PILOT  (periodic verification)
+  Result -> Actual Y = 0.9616
+
+===== SEED 0 COMPLETE: Best pilot Y = 6.0764 g/L, Total spent = 15000 EUR, Pilot evals = 6 =====
+
+===== SEED 1: STAGE A - cheap wide MICRO screening =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Screening complete: 150 micro runs, 1500/15000 EUR spent so far.
+
+===== SEED 1: STAGE B - Multi-fidelity BO (bench-driven, pilot-verified) =====
+
+--- Seed 1 | Iter 150 | Spent 1500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.99, pH=9.50, F1=2.00, F2=1.71, F3=1.62
+  GP prediction (pilot-eq) -> 4.278 +/- 0.476
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 1.8701
+
+--- Seed 1 | Iter 151 | Spent 3500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.06, pH=7.88, F1=2.00, F2=2.00, F3=1.28
+  GP prediction (pilot-eq) -> 4.737 +/- 0.374
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 12.4951
+  *** NEW BEST PILOT Y: 12.4951 ***
+
+--- Seed 1 | Iter 152 | Spent 5500/15000 EUR | Best pilot Y so far: 12.495 ---
+  Candidate recipe -> T=36.44, pH=7.84, F1=2.00, F2=2.00, F3=1.75
+  GP prediction (pilot-eq) -> 12.500 +/- 0.263
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 12.3992
+
+--- Seed 1 | Iter 153 | Spent 7500/15000 EUR | Best pilot Y so far: 12.495 ---
+  Candidate recipe -> T=36.63, pH=7.84, F1=2.00, F2=2.00, F3=0.84
+  GP prediction (pilot-eq) -> 12.403 +/- 0.242
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 15.8979
+
+--- Seed 1 | Iter 154 | Spent 8000/15000 EUR | Best pilot Y so far: 12.495 ---
+  Candidate recipe -> T=36.03, pH=7.84, F1=2.00, F2=2.00, F3=1.51
+  GP prediction (pilot-eq) -> 13.369 +/- 0.110
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 12.9709
+  *** NEW BEST PILOT Y: 12.9709 ***
+
+--- Seed 1 | Iter 155 | Spent 10000/15000 EUR | Best pilot Y so far: 12.971 ---
+  Candidate recipe -> T=36.23, pH=7.92, F1=2.00, F2=2.00, F3=1.51
+  GP prediction (pilot-eq) -> 13.382 +/- 0.219
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 13.0875
+  *** NEW BEST PILOT Y: 13.0875 ***
+
+--- Seed 1 | Iter 156 | Spent 12000/15000 EUR | Best pilot Y so far: 13.087 ---
+  Candidate recipe -> T=36.72, pH=7.88, F1=2.00, F2=2.00, F3=1.50
+  GP prediction (pilot-eq) -> 13.092 +/- 0.181
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 9.8622
+
+--- Seed 1 | Iter 157 | Spent 14000/15000 EUR | Best pilot Y so far: 13.087 ---
+  Candidate recipe -> T=35.22, pH=7.96, F1=2.00, F2=2.00, F3=1.55
+  GP prediction (pilot-eq) -> 16.030 +/- 0.470
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 19.5884
+
+--- Seed 1 | Iter 158 | Spent 14500/15000 EUR | Best pilot Y so far: 13.087 ---
+  Candidate recipe -> T=35.43, pH=7.96, F1=1.98, F2=1.99, F3=1.45
+  GP prediction (pilot-eq) -> 16.914 +/- 1.418
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 20.5711
+
+===== SEED 1 COMPLETE: Best pilot Y = 13.0875 g/L, Total spent = 15000 EUR, Pilot evals = 6 =====
+
+===== SEED 2: STAGE A - cheap wide MICRO screening =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Screening complete: 150 micro runs, 1500/15000 EUR spent so far.
+
+===== SEED 2: STAGE B - Multi-fidelity BO (bench-driven, pilot-verified) =====
+
+--- Seed 2 | Iter 150 | Spent 1500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.15, pH=9.50, F1=2.00, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 3.633 +/- 0.336
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 2.0517
+
+--- Seed 2 | Iter 151 | Spent 3500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.22, pH=9.50, F1=0.00, F2=0.00, F3=1.21
+  GP prediction (pilot-eq) -> 2.821 +/- 0.334
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 1.6111
+
+--- Seed 2 | Iter 152 | Spent 4000/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.61, pH=9.50, F1=1.10, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 3.251 +/- 0.353
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 1.9996
+
+--- Seed 2 | Iter 153 | Spent 6000/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=32.14, pH=3.04, F1=2.00, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 2.035 +/- 0.455
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 4.4937
+
+--- Seed 2 | Iter 154 | Spent 6500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=38.75, pH=3.00, F1=0.00, F2=2.00, F3=2.00
+  GP prediction (pilot-eq) -> 1.825 +/- 0.467
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 1.8879
+
+--- Seed 2 | Iter 155 | Spent 7000/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=37.23, pH=9.50, F1=1.54, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 3.223 +/- 0.375
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 1.9914
+
+--- Seed 2 | Iter 156 | Spent 9000/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=59.99, pH=9.50, F1=2.00, F2=0.03, F3=2.00
+  GP prediction (pilot-eq) -> 1.738 +/- 0.506
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 4.5062
+
+--- Seed 2 | Iter 157 | Spent 9500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=48.40, pH=9.49, F1=2.00, F2=2.00, F3=2.00
+  GP prediction (pilot-eq) -> 2.031 +/- 0.451
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 4.4950
+
+--- Seed 2 | Iter 158 | Spent 10000/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=53.94, pH=3.00, F1=2.00, F2=0.02, F3=2.00
+  GP prediction (pilot-eq) -> 1.806 +/- 0.469
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 4.5594
+
+--- Seed 2 | Iter 159 | Spent 10500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=20.00, pH=3.00, F1=0.00, F2=0.12, F3=2.00
+  GP prediction (pilot-eq) -> 1.759 +/- 0.482
+  SCALE CHOSEN -> PILOT  (periodic verification)
+  Result -> Actual Y = 0.9524
+
+--- Seed 2 | Iter 160 | Spent 12500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=60.00, pH=9.50, F1=0.00, F2=1.99, F3=2.00
+  GP prediction (pilot-eq) -> 1.832 +/- 0.470
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 1.9550
+
+--- Seed 2 | Iter 161 | Spent 13000/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.14, pH=9.50, F1=2.00, F2=1.99, F3=0.02
+  GP prediction (pilot-eq) -> 2.436 +/- 0.415
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 3.0787
+
+--- Seed 2 | Iter 162 | Spent 13500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=31.80, pH=3.00, F1=1.35, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 2.367 +/- 0.421
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 4.4695
+
+--- Seed 2 | Iter 163 | Spent 14000/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=32.55, pH=9.49, F1=0.60, F2=2.00, F3=2.00
+  GP prediction (pilot-eq) -> 2.214 +/- 0.427
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 4.3531
+
+--- Seed 2 | Iter 164 | Spent 14500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=42.48, pH=3.00, F1=1.33, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 1.939 +/- 0.456
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 4.3811
+
+===== SEED 2 COMPLETE: Best pilot Y = 3.1309 g/L, Total spent = 15000 EUR, Pilot evals = 4 =====
+
+===== SEED 3: STAGE A - cheap wide MICRO screening =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Screening complete: 150 micro runs, 1500/15000 EUR spent so far.
+
+===== SEED 3: STAGE B - Multi-fidelity BO (bench-driven, pilot-verified) =====
+
+--- Seed 3 | Iter 150 | Spent 1500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.14, pH=9.50, F1=2.00, F2=1.99, F3=2.00
+  GP prediction (pilot-eq) -> 3.162 +/- 0.442
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 2.1143
+
+--- Seed 3 | Iter 151 | Spent 3500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=60.00, pH=3.00, F1=0.00, F2=1.99, F3=2.00
+  GP prediction (pilot-eq) -> 1.780 +/- 0.463
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 1.9205
+
+--- Seed 3 | Iter 152 | Spent 4000/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.79, pH=9.50, F1=0.54, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 2.404 +/- 0.400
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 4.4028
+
+--- Seed 3 | Iter 153 | Spent 4500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=34.99, pH=9.47, F1=2.00, F2=2.00, F3=0.00
+  GP prediction (pilot-eq) -> 2.681 +/- 0.397
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 2.9690
+
+--- Seed 3 | Iter 154 | Spent 5000/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=59.97, pH=3.00, F1=2.00, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 1.842 +/- 0.472
+  SCALE CHOSEN -> PILOT  (periodic verification)
+  Result -> Actual Y = 1.9644
+
+--- Seed 3 | Iter 155 | Spent 7000/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.12, pH=9.50, F1=2.00, F2=0.00, F3=1.13
+  GP prediction (pilot-eq) -> 3.228 +/- 0.371
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 1.5774
+
+--- Seed 3 | Iter 156 | Spent 9000/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=20.02, pH=9.49, F1=2.00, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 1.994 +/- 0.448
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 4.4847
+
+--- Seed 3 | Iter 157 | Spent 9500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=20.03, pH=3.00, F1=2.00, F2=1.99, F3=2.00
+  GP prediction (pilot-eq) -> 2.027 +/- 0.436
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 4.4827
+
+--- Seed 3 | Iter 158 | Spent 10000/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=32.50, pH=9.50, F1=1.36, F2=2.00, F3=2.00
+  GP prediction (pilot-eq) -> 2.321 +/- 0.386
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 4.5062
+
+--- Seed 3 | Iter 159 | Spent 10500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=20.38, pH=9.50, F1=2.00, F2=0.00, F3=0.59
+  GP prediction (pilot-eq) -> 2.442 +/- 0.432
+  SCALE CHOSEN -> PILOT  (periodic verification)
+  Result -> Actual Y = 1.3263
+
+--- Seed 3 | Iter 160 | Spent 12500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=59.94, pH=9.49, F1=2.00, F2=2.00, F3=2.00
+  GP prediction (pilot-eq) -> 1.800 +/- 0.432
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 4.4631
+
+--- Seed 3 | Iter 161 | Spent 13000/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=20.01, pH=9.49, F1=0.55, F2=2.00, F3=2.00
+  GP prediction (pilot-eq) -> 2.039 +/- 0.391
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 4.3986
+
+--- Seed 3 | Iter 162 | Spent 13500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=34.80, pH=9.50, F1=1.16, F2=0.00, F3=0.00
+  GP prediction (pilot-eq) -> 2.478 +/- 0.353
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 2.8065
+
+--- Seed 3 | Iter 163 | Spent 14000/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.14, pH=8.02, F1=2.00, F2=0.61, F3=1.44
+  GP prediction (pilot-eq) -> 3.727 +/- 0.357
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 29.5785
+
+--- Seed 3 | Iter 164 | Spent 14500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.88, pH=7.99, F1=2.00, F2=0.42, F3=1.74
+  GP prediction (pilot-eq) -> 13.655 +/- 0.250
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 32.8072
+
+===== SEED 3 COMPLETE: Best pilot Y = 3.1309 g/L, Total spent = 15000 EUR, Pilot evals = 4 =====
+
+===== SEED 4: STAGE A - cheap wide MICRO screening =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Screening complete: 150 micro runs, 1500/15000 EUR spent so far.
+
+===== SEED 4: STAGE B - Multi-fidelity BO (bench-driven, pilot-verified) =====
+
+--- Seed 4 | Iter 150 | Spent 1500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=37.27, pH=9.50, F1=2.00, F2=2.00, F3=2.00
+  GP prediction (pilot-eq) -> 6.442 +/- 0.673
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 2.0351
+
+--- Seed 4 | Iter 151 | Spent 3500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.96, pH=9.50, F1=2.00, F2=2.00, F3=1.47
+  GP prediction (pilot-eq) -> 6.627 +/- 0.587
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 1.7323
+
+--- Seed 4 | Iter 152 | Spent 5500/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.19, pH=7.66, F1=2.00, F2=2.00, F3=2.00
+  GP prediction (pilot-eq) -> 5.463 +/- 0.580
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 12.9186
+  *** NEW BEST PILOT Y: 12.9186 ***
+
+--- Seed 4 | Iter 153 | Spent 7500/15000 EUR | Best pilot Y so far: 12.919 ---
+  Candidate recipe -> T=36.86, pH=7.56, F1=2.00, F2=2.00, F3=2.00
+  GP prediction (pilot-eq) -> 12.971 +/- 0.241
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 8.1157
+
+--- Seed 4 | Iter 154 | Spent 9500/15000 EUR | Best pilot Y so far: 12.919 ---
+  Candidate recipe -> T=35.68, pH=7.79, F1=2.00, F2=2.00, F3=2.00
+  GP prediction (pilot-eq) -> 14.780 +/- 0.328
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 13.9049
+  *** NEW BEST PILOT Y: 13.9049 ***
+
+--- Seed 4 | Iter 155 | Spent 11500/15000 EUR | Best pilot Y so far: 13.905 ---
+  Candidate recipe -> T=35.78, pH=7.75, F1=2.00, F2=1.93, F3=1.68
+  GP prediction (pilot-eq) -> 14.035 +/- 0.138
+  SCALE CHOSEN -> PILOT  (predicted new best -> verify directly)
+  Result -> Actual Y = 12.7489
+
+--- Seed 4 | Iter 156 | Spent 13500/15000 EUR | Best pilot Y so far: 13.905 ---
+  Candidate recipe -> T=35.80, pH=7.75, F1=2.00, F2=2.00, F3=2.00
+  GP prediction (pilot-eq) -> 14.044 +/- 0.024
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 22.3085
+
+--- Seed 4 | Iter 157 | Spent 14000/15000 EUR | Best pilot Y so far: 13.905 ---
+  Candidate recipe -> T=35.08, pH=8.18, F1=2.00, F2=2.00, F3=2.00
+  GP prediction (pilot-eq) -> 111.491 +/- 9.805
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 20.1896
+
+--- Seed 4 | Iter 158 | Spent 14500/15000 EUR | Best pilot Y so far: 13.905 ---
+  Candidate recipe -> T=36.51, pH=7.96, F1=2.00, F2=1.61, F3=2.00
+  GP prediction (pilot-eq) -> 48.280 +/- 9.204
+  SCALE CHOSEN -> BENCH  (explore/refine 5D surface (cheap, near-perfect pilot proxy))
+  Result -> Actual Y = 23.3929
+
+===== SEED 4 COMPLETE: Best pilot Y = 13.9049 g/L, Total spent = 15000 EUR, Pilot evals = 6 =====
+
+=====================================
+ MULTI-SEED BO CAMPAIGN COMPLETE
+=====================================
+ seed  best_pilot_Y  total_cost_eur  pilot_evaluations  reached_target
+    0      6.076374         15000.0                  6           False
+    1     13.087483         15000.0                  6           False
+    2      3.130854         15000.0                  4           False
+    3      3.130854         15000.0                  4           False
+    4     13.904894         15000.0                  6           False
+
+Mean best pilot Y : 7.866 +/- 5.286 g/L
+Mean total cost   : 15000.0 +/- 0.0 EUR
+Felix benchmark   : mean best pilot Y = 14 g/L @ mean cost = 15000 EUR
+
+Generating Phase 3 visualizations...
+ -> Saved 'compare_vs_baseline.png' (BO vs Phase 2 baseline)
+ -> Saved 'bo_trajectory.png', 'bo_scale_selection_pattern.png', 'bo_vs_felix_benchmark.png'
