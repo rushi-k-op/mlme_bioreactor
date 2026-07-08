@@ -1,0 +1,1025 @@
+Logging into the bioreactor...
+
+===== SEED 0: STAGE A - cheap wide MICRO screening =====
+  Screening complete: 30 micro runs, 300/15000 EUR spent so far.
+
+===== SEED 0: STAGE B & C - Merve's Scheduled BO =====
+
+--- Seed 0 | Iter 30 | Spent 300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=49.28, pH=9.38, F1=1.44, F2=0.07, F3=1.74
+  GP prediction (pilot-eq) -> 3.016 +/- 0.204
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Result -> Actual Y = 4.2117
+
+--- Seed 0 | Iter 31 | Spent 800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=37.16, pH=9.50, F1=1.42, F2=0.25, F3=0.85
+  GP prediction (pilot-eq) -> 3.008 +/- 0.189
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.6065
+
+--- Seed 0 | Iter 32 | Spent 1300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.58, pH=8.68, F1=1.03, F2=1.21, F3=0.12
+  GP prediction (pilot-eq) -> 2.989 +/- 0.191
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 8.8948
+
+--- Seed 0 | Iter 33 | Spent 1800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.29, pH=8.61, F1=1.37, F2=0.92, F3=0.06
+  GP prediction (pilot-eq) -> 3.855 +/- 0.188
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 11.3161
+
+--- Seed 0 | Iter 34 | Spent 2300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=34.80, pH=8.57, F1=1.12, F2=1.46, F3=0.00
+  GP prediction (pilot-eq) -> 5.067 +/- 0.171
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 8.7195
+
+--- Seed 0 | Iter 35 | Spent 2800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=33.94, pH=8.58, F1=1.37, F2=0.69, F3=0.00
+  GP prediction (pilot-eq) -> 5.014 +/- 0.191
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 6.1636
+
+--- Seed 0 | Iter 36 | Spent 3300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.69, pH=8.60, F1=1.42, F2=1.02, F3=0.09
+  GP prediction (pilot-eq) -> 5.298 +/- 0.152
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 12.4235
+
+--- Seed 0 | Iter 37 | Spent 3800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.05, pH=8.56, F1=1.43, F2=1.08, F3=0.04
+  GP prediction (pilot-eq) -> 5.650 +/- 0.134
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 13.5584
+
+--- Seed 0 | Iter 38 | Spent 4300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.59, pH=8.51, F1=1.45, F2=1.26, F3=0.00
+  GP prediction (pilot-eq) -> 6.375 +/- 0.134
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 11.9709
+
+--- Seed 0 | Iter 39 | Spent 4800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.91, pH=8.47, F1=1.42, F2=1.10, F3=0.04
+  GP prediction (pilot-eq) -> 5.989 +/- 0.230
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 8.4350
+  *** NEW BEST PILOT Y: 8.4350 ***
+
+--- Seed 0 | Iter 40 | Spent 6800/15000 EUR | Best pilot Y so far: 8.435 ---
+  Candidate recipe -> T=35.66, pH=8.32, F1=1.39, F2=1.12, F3=0.04
+  GP prediction (pilot-eq) -> 10.146 +/- 0.431
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 9.9717
+  *** NEW BEST PILOT Y: 9.9717 ***
+
+--- Seed 0 | Iter 41 | Spent 8800/15000 EUR | Best pilot Y so far: 9.972 ---
+  Candidate recipe -> T=35.72, pH=8.34, F1=1.39, F2=1.12, F3=1.03
+  GP prediction (pilot-eq) -> 9.726 +/- 0.383
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 12.2276
+  *** NEW BEST PILOT Y: 12.2276 ***
+
+--- Seed 0 | Iter 42 | Spent 10800/15000 EUR | Best pilot Y so far: 12.228 ---
+  Candidate recipe -> T=52.06, pH=8.35, F1=1.38, F2=1.11, F3=1.12
+  GP prediction (pilot-eq) -> 12.008 +/- 0.414
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 1.4907
+
+--- Seed 0 | Iter 43 | Spent 12800/15000 EUR | Best pilot Y so far: 12.228 ---
+  Candidate recipe -> T=36.62, pH=8.34, F1=1.38, F2=1.10, F3=1.09
+  GP prediction (pilot-eq) -> 11.992 +/- 0.406
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 10.2173
+
+===== SEED 0 COMPLETE: Best pilot Y = 12.2276 g/L, Total spent = 14800 EUR, Pilot evals = 5 =====
+
+===== SEED 1: STAGE A - cheap wide MICRO screening =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Screening complete: 30 micro runs, 300/15000 EUR spent so far.
+
+===== SEED 1: STAGE B & C - Merve's Scheduled BO =====
+
+--- Seed 1 | Iter 30 | Spent 300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.63, pH=9.50, F1=0.00, F2=0.28, F3=2.00
+  GP prediction (pilot-eq) -> 3.801 +/- 0.597
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 1.9092
+
+--- Seed 1 | Iter 31 | Spent 800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=34.21, pH=8.65, F1=0.97, F2=1.05, F3=1.80
+  GP prediction (pilot-eq) -> 4.535 +/- 0.590
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 8.6025
+
+--- Seed 1 | Iter 32 | Spent 1300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=33.88, pH=7.95, F1=0.84, F2=0.01, F3=0.50
+  GP prediction (pilot-eq) -> 3.542 +/- 0.600
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 5.3403
+
+--- Seed 1 | Iter 33 | Spent 1800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.04, pH=6.73, F1=0.76, F2=1.99, F3=1.82
+  GP prediction (pilot-eq) -> 3.773 +/- 0.592
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 6.3609
+
+--- Seed 1 | Iter 34 | Spent 2300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=34.96, pH=7.98, F1=1.21, F2=1.57, F3=0.00
+  GP prediction (pilot-eq) -> 3.899 +/- 0.564
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 13.9832
+
+--- Seed 1 | Iter 35 | Spent 2800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.48, pH=7.85, F1=2.00, F2=1.33, F3=1.57
+  GP prediction (pilot-eq) -> 5.847 +/- 0.491
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 22.7507
+
+--- Seed 1 | Iter 36 | Spent 3300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.41, pH=7.84, F1=2.00, F2=1.52, F3=1.86
+  GP prediction (pilot-eq) -> 10.228 +/- 0.352
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 22.8187
+
+--- Seed 1 | Iter 37 | Spent 3800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.94, pH=7.80, F1=2.00, F2=1.41, F3=1.90
+  GP prediction (pilot-eq) -> 10.311 +/- 0.309
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 25.1387
+
+--- Seed 1 | Iter 38 | Spent 4300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.40, pH=7.74, F1=2.00, F2=1.44, F3=2.00
+  GP prediction (pilot-eq) -> 11.792 +/- 0.243
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 22.7424
+
+--- Seed 1 | Iter 39 | Spent 4800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.78, pH=7.87, F1=2.00, F2=1.42, F3=2.00
+  GP prediction (pilot-eq) -> 11.572 +/- 0.304
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 16.3311
+  *** NEW BEST PILOT Y: 16.3311 ***
+
+--- Seed 1 | Iter 40 | Spent 6800/15000 EUR | Best pilot Y so far: 16.331 ---
+  Candidate recipe -> T=35.36, pH=7.98, F1=2.00, F2=1.38, F3=1.99
+  GP prediction (pilot-eq) -> 17.868 +/- 0.661
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 15.3330
+
+--- Seed 1 | Iter 41 | Spent 8800/15000 EUR | Best pilot Y so far: 16.331 ---
+  Candidate recipe -> T=35.32, pH=7.97, F1=2.00, F2=1.44, F3=2.00
+  GP prediction (pilot-eq) -> 17.906 +/- 0.769
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 14.9416
+
+--- Seed 1 | Iter 42 | Spent 10800/15000 EUR | Best pilot Y so far: 16.331 ---
+  Candidate recipe -> T=35.64, pH=7.90, F1=2.00, F2=1.40, F3=2.00
+  GP prediction (pilot-eq) -> 16.904 +/- 0.208
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 16.1389
+
+--- Seed 1 | Iter 43 | Spent 12800/15000 EUR | Best pilot Y so far: 16.331 ---
+  Candidate recipe -> T=36.71, pH=8.03, F1=1.98, F2=1.63, F3=2.00
+  GP prediction (pilot-eq) -> 22.497 +/- 1.490
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 12.6815
+
+===== SEED 1 COMPLETE: Best pilot Y = 16.3311 g/L, Total spent = 14800 EUR, Pilot evals = 5 =====
+
+===== SEED 2: STAGE A - cheap wide MICRO screening =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Screening complete: 30 micro runs, 300/15000 EUR spent so far.
+
+===== SEED 2: STAGE B & C - Merve's Scheduled BO =====
+
+--- Seed 2 | Iter 30 | Spent 300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.81, pH=6.91, F1=0.00, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 4.982 +/- 0.594
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 2.0995
+
+--- Seed 2 | Iter 31 | Spent 800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=39.77, pH=8.28, F1=0.99, F2=0.02, F3=2.00
+  GP prediction (pilot-eq) -> 5.593 +/- 0.671
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 4.4031
+
+--- Seed 2 | Iter 32 | Spent 1300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.98, pH=9.50, F1=2.00, F2=0.86, F3=2.00
+  GP prediction (pilot-eq) -> 5.857 +/- 0.612
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Result -> Actual Y = 4.7161
+
+--- Seed 2 | Iter 33 | Spent 1800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.78, pH=7.25, F1=0.94, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 5.026 +/- 0.554
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 5.6981
+
+--- Seed 2 | Iter 34 | Spent 2300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.63, pH=8.94, F1=0.96, F2=1.03, F3=2.00
+  GP prediction (pilot-eq) -> 4.849 +/- 0.591
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 8.6344
+
+--- Seed 2 | Iter 35 | Spent 2800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=37.55, pH=6.50, F1=1.24, F2=0.91, F3=2.00
+  GP prediction (pilot-eq) -> 3.938 +/- 0.548
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 5.1922
+
+--- Seed 2 | Iter 36 | Spent 3300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=34.73, pH=7.16, F1=0.82, F2=1.25, F3=2.00
+  GP prediction (pilot-eq) -> 3.779 +/- 0.574
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 9.7159
+
+--- Seed 2 | Iter 37 | Spent 3800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=34.87, pH=7.61, F1=1.44, F2=0.95, F3=0.00
+  GP prediction (pilot-eq) -> 3.760 +/- 0.600
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 12.3916
+
+--- Seed 2 | Iter 38 | Spent 4300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.09, pH=7.82, F1=0.58, F2=0.92, F3=0.00
+  GP prediction (pilot-eq) -> 4.881 +/- 0.597
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 18.7406
+
+--- Seed 2 | Iter 39 | Spent 4800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.13, pH=7.79, F1=0.64, F2=0.87, F3=1.12
+  GP prediction (pilot-eq) -> 8.475 +/- 0.331
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 13.2043
+  *** NEW BEST PILOT Y: 13.2043 ***
+
+--- Seed 2 | Iter 40 | Spent 6800/15000 EUR | Best pilot Y so far: 13.204 ---
+  Candidate recipe -> T=35.98, pH=7.85, F1=0.42, F2=0.85, F3=1.18
+  GP prediction (pilot-eq) -> 13.005 +/- 0.387
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 13.3583
+  *** NEW BEST PILOT Y: 13.3583 ***
+
+--- Seed 2 | Iter 41 | Spent 8800/15000 EUR | Best pilot Y so far: 13.358 ---
+  Candidate recipe -> T=36.30, pH=7.87, F1=0.20, F2=0.90, F3=1.22
+  GP prediction (pilot-eq) -> 13.202 +/- 0.393
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 11.0232
+
+--- Seed 2 | Iter 42 | Spent 10800/15000 EUR | Best pilot Y so far: 13.358 ---
+  Candidate recipe -> T=35.93, pH=7.82, F1=0.66, F2=0.84, F3=1.19
+  GP prediction (pilot-eq) -> 13.642 +/- 0.202
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 13.9063
+  *** NEW BEST PILOT Y: 13.9063 ***
+
+--- Seed 2 | Iter 43 | Spent 12800/15000 EUR | Best pilot Y so far: 13.906 ---
+  Candidate recipe -> T=36.41, pH=7.86, F1=0.81, F2=0.83, F3=1.28
+  GP prediction (pilot-eq) -> 13.886 +/- 0.344
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 13.4595
+
+===== SEED 2 COMPLETE: Best pilot Y = 13.9063 g/L, Total spent = 14800 EUR, Pilot evals = 5 =====
+
+===== SEED 3: STAGE A - cheap wide MICRO screening =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Screening complete: 30 micro runs, 300/15000 EUR spent so far.
+
+===== SEED 3: STAGE B & C - Merve's Scheduled BO =====
+
+--- Seed 3 | Iter 30 | Spent 300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=31.28, pH=9.50, F1=1.38, F2=0.57, F3=0.46
+  GP prediction (pilot-eq) -> 3.142 +/- 0.174
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.1197
+
+--- Seed 3 | Iter 31 | Spent 800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.87, pH=7.44, F1=1.48, F2=0.37, F3=0.76
+  GP prediction (pilot-eq) -> 3.036 +/- 0.182
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 13.4540
+
+--- Seed 3 | Iter 32 | Spent 1300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.39, pH=7.37, F1=1.63, F2=0.23, F3=1.12
+  GP prediction (pilot-eq) -> 5.954 +/- 0.251
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 18.5715
+
+--- Seed 3 | Iter 33 | Spent 1800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=37.19, pH=7.09, F1=2.00, F2=0.16, F3=1.08
+  GP prediction (pilot-eq) -> 8.358 +/- 0.322
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 7.7998
+
+--- Seed 3 | Iter 34 | Spent 2300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.55, pH=7.51, F1=1.62, F2=0.00, F3=1.24
+  GP prediction (pilot-eq) -> 8.318 +/- 0.288
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 4.9543
+
+--- Seed 3 | Iter 35 | Spent 2800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.90, pH=7.35, F1=1.62, F2=0.26, F3=1.15
+  GP prediction (pilot-eq) -> 8.541 +/- 0.182
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 19.2004
+
+--- Seed 3 | Iter 36 | Spent 3300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=33.70, pH=7.22, F1=1.60, F2=0.26, F3=0.99
+  GP prediction (pilot-eq) -> 8.576 +/- 0.302
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 6.2810
+
+--- Seed 3 | Iter 37 | Spent 3800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.36, pH=7.38, F1=1.60, F2=0.28, F3=1.20
+  GP prediction (pilot-eq) -> 9.002 +/- 0.303
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 18.7055
+
+--- Seed 3 | Iter 38 | Spent 4300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.93, pH=7.44, F1=1.66, F2=0.26, F3=0.98
+  GP prediction (pilot-eq) -> 8.603 +/- 0.358
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 20.8241
+
+--- Seed 3 | Iter 39 | Spent 4800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.85, pH=7.51, F1=1.72, F2=0.26, F3=1.01
+  GP prediction (pilot-eq) -> 9.542 +/- 0.254
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 13.1729
+  *** NEW BEST PILOT Y: 13.1729 ***
+
+--- Seed 3 | Iter 40 | Spent 6800/15000 EUR | Best pilot Y so far: 13.173 ---
+  Candidate recipe -> T=35.88, pH=7.54, F1=1.74, F2=0.27, F3=1.07
+  GP prediction (pilot-eq) -> 13.648 +/- 0.472
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 13.7904
+  *** NEW BEST PILOT Y: 13.7904 ***
+
+--- Seed 3 | Iter 41 | Spent 8800/15000 EUR | Best pilot Y so far: 13.790 ---
+  Candidate recipe -> T=35.62, pH=7.34, F1=1.75, F2=0.27, F3=1.07
+  GP prediction (pilot-eq) -> 13.529 +/- 0.503
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 10.0069
+
+--- Seed 3 | Iter 42 | Spent 10800/15000 EUR | Best pilot Y so far: 13.790 ---
+  Candidate recipe -> T=35.75, pH=7.61, F1=1.73, F2=0.26, F3=1.08
+  GP prediction (pilot-eq) -> 13.941 +/- 0.377
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 14.6584
+  *** NEW BEST PILOT Y: 14.6584 ***
+
+--- Seed 3 | Iter 43 | Spent 12800/15000 EUR | Best pilot Y so far: 14.658 ---
+  Candidate recipe -> T=35.59, pH=7.67, F1=1.73, F2=0.26, F3=1.09
+  GP prediction (pilot-eq) -> 14.877 +/- 0.108
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 15.0254
+  *** NEW BEST PILOT Y: 15.0254 ***
+
+===== SEED 3 COMPLETE: Best pilot Y = 15.0254 g/L, Total spent = 14800 EUR, Pilot evals = 5 =====
+
+===== SEED 4: STAGE A - cheap wide MICRO screening =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Screening complete: 30 micro runs, 300/15000 EUR spent so far.
+
+===== SEED 4: STAGE B & C - Merve's Scheduled BO =====
+
+--- Seed 4 | Iter 30 | Spent 300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=37.00, pH=7.79, F1=1.84, F2=0.13, F3=0.62
+  GP prediction (pilot-eq) -> 3.059 +/- 0.216
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 16.9535
+
+--- Seed 4 | Iter 31 | Spent 800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=43.28, pH=7.65, F1=2.00, F2=0.00, F3=0.28
+  GP prediction (pilot-eq) -> 8.009 +/- 0.316
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 2.9554
+
+--- Seed 4 | Iter 32 | Spent 1300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=37.31, pH=7.70, F1=2.00, F2=0.00, F3=1.28
+  GP prediction (pilot-eq) -> 7.549 +/- 0.301
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 4.6441
+
+--- Seed 4 | Iter 33 | Spent 1800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=21.47, pH=7.76, F1=2.00, F2=0.00, F3=0.60
+  GP prediction (pilot-eq) -> 7.564 +/- 0.286
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.2008
+
+--- Seed 4 | Iter 34 | Spent 2300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=38.31, pH=8.19, F1=1.82, F2=0.00, F3=0.56
+  GP prediction (pilot-eq) -> 7.723 +/- 0.330
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Result -> Actual Y = 3.7810
+
+--- Seed 4 | Iter 35 | Spent 2800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.83, pH=7.73, F1=1.86, F2=0.15, F3=0.63
+  GP prediction (pilot-eq) -> 7.573 +/- 0.283
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 19.2071
+
+--- Seed 4 | Iter 36 | Spent 3300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=37.09, pH=7.68, F1=1.87, F2=0.17, F3=0.67
+  GP prediction (pilot-eq) -> 9.079 +/- 0.198
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 14.5803
+
+--- Seed 4 | Iter 37 | Spent 3800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.35, pH=7.70, F1=1.87, F2=0.16, F3=0.60
+  GP prediction (pilot-eq) -> 9.530 +/- 0.386
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 24.7440
+
+--- Seed 4 | Iter 38 | Spent 4300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.90, pH=7.67, F1=1.89, F2=0.16, F3=0.57
+  GP prediction (pilot-eq) -> 12.140 +/- 0.333
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 25.3007
+
+--- Seed 4 | Iter 39 | Spent 4800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.15, pH=7.71, F1=1.89, F2=0.15, F3=0.58
+  GP prediction (pilot-eq) -> 11.593 +/- 0.320
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 15.1716
+  *** NEW BEST PILOT Y: 15.1716 ***
+
+--- Seed 4 | Iter 40 | Spent 6800/15000 EUR | Best pilot Y so far: 15.172 ---
+  Candidate recipe -> T=46.87, pH=4.14, F1=1.86, F2=0.86, F3=1.81
+  GP prediction (pilot-eq) -> 2.074 +/- 3.328
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 1.8440
+
+--- Seed 4 | Iter 41 | Spent 8800/15000 EUR | Best pilot Y so far: 15.172 ---
+  Candidate recipe -> T=34.65, pH=8.86, F1=1.57, F2=0.31, F3=0.41
+  GP prediction (pilot-eq) -> 2.102 +/- 3.291
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 2.8691
+
+--- Seed 4 | Iter 42 | Spent 10800/15000 EUR | Best pilot Y so far: 15.172 ---
+  Candidate recipe -> T=42.04, pH=7.99, F1=1.74, F2=0.09, F3=0.84
+  GP prediction (pilot-eq) -> 2.080 +/- 3.260
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 1.3995
+
+--- Seed 4 | Iter 43 | Spent 12800/15000 EUR | Best pilot Y so far: 15.172 ---
+  Candidate recipe -> T=33.71, pH=8.71, F1=1.64, F2=0.63, F3=0.20
+  GP prediction (pilot-eq) -> 2.073 +/- 3.227
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 2.0629
+
+===== SEED 4 COMPLETE: Best pilot Y = 15.1716 g/L, Total spent = 14800 EUR, Pilot evals = 5 =====
+
+===== SEED 5: STAGE A - cheap wide MICRO screening =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Screening complete: 30 micro runs, 300/15000 EUR spent so far.
+
+===== SEED 5: STAGE B & C - Merve's Scheduled BO =====
+
+--- Seed 5 | Iter 30 | Spent 300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.94, pH=9.50, F1=1.32, F2=0.20, F3=1.40
+  GP prediction (pilot-eq) -> 3.111 +/- 0.271
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.9677
+
+--- Seed 5 | Iter 31 | Spent 800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=38.82, pH=9.50, F1=1.82, F2=0.00, F3=0.48
+  GP prediction (pilot-eq) -> 2.787 +/- 0.298
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.2217
+
+--- Seed 5 | Iter 32 | Spent 1300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=38.92, pH=9.50, F1=1.28, F2=0.00, F3=0.60
+  GP prediction (pilot-eq) -> 2.821 +/- 0.289
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.1325
+
+--- Seed 5 | Iter 33 | Spent 1800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.70, pH=8.40, F1=1.86, F2=0.40, F3=2.00
+  GP prediction (pilot-eq) -> 2.838 +/- 0.289
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 28.5432
+
+--- Seed 5 | Iter 34 | Spent 2300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=38.65, pH=9.13, F1=2.00, F2=0.29, F3=2.00
+  GP prediction (pilot-eq) -> 13.254 +/- 0.731
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 4.5191
+
+--- Seed 5 | Iter 35 | Spent 2800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=44.35, pH=8.40, F1=2.00, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 13.098 +/- 0.430
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 4.4243
+
+--- Seed 5 | Iter 36 | Spent 3300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=32.95, pH=9.50, F1=1.84, F2=0.09, F3=2.00
+  GP prediction (pilot-eq) -> 13.210 +/- 0.491
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 4.5195
+
+--- Seed 5 | Iter 37 | Spent 3800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.34, pH=8.43, F1=1.97, F2=0.41, F3=2.00
+  GP prediction (pilot-eq) -> 13.026 +/- 0.402
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 25.2762
+
+--- Seed 5 | Iter 38 | Spent 4300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.20, pH=8.34, F1=1.84, F2=0.38, F3=2.00
+  GP prediction (pilot-eq) -> 12.906 +/- 0.404
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 26.6894
+
+--- Seed 5 | Iter 39 | Spent 4800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.09, pH=8.36, F1=1.86, F2=0.41, F3=2.00
+  GP prediction (pilot-eq) -> 12.972 +/- 0.379
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 19.4798
+  *** NEW BEST PILOT Y: 19.4798 ***
+
+--- Seed 5 | Iter 40 | Spent 6800/15000 EUR | Best pilot Y so far: 19.480 ---
+  Candidate recipe -> T=36.55, pH=8.20, F1=1.87, F2=0.44, F3=2.00
+  GP prediction (pilot-eq) -> 26.390 +/- 1.411
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 18.6037
+
+--- Seed 5 | Iter 41 | Spent 8800/15000 EUR | Best pilot Y so far: 19.480 ---
+  Candidate recipe -> T=37.22, pH=5.95, F1=1.69, F2=1.03, F3=0.57
+  GP prediction (pilot-eq) -> 2.244 +/- 5.340
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 1.9441
+
+--- Seed 5 | Iter 42 | Spent 10800/15000 EUR | Best pilot Y so far: 19.480 ---
+  Candidate recipe -> T=36.54, pH=8.33, F1=1.86, F2=0.44, F3=2.00
+  GP prediction (pilot-eq) -> 21.875 +/- 0.603
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 17.2237
+
+--- Seed 5 | Iter 43 | Spent 12800/15000 EUR | Best pilot Y so far: 19.480 ---
+  Candidate recipe -> T=35.59, pH=8.13, F1=1.98, F2=0.41, F3=1.93
+  GP prediction (pilot-eq) -> 29.092 +/- 1.886
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 21.0366
+  *** NEW BEST PILOT Y: 21.0366 ***
+
+===== SEED 5 COMPLETE: Best pilot Y = 21.0366 g/L, Total spent = 14800 EUR, Pilot evals = 5 =====
+
+===== SEED 6: STAGE A - cheap wide MICRO screening =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Screening complete: 30 micro runs, 300/15000 EUR spent so far.
+
+===== SEED 6: STAGE B & C - Merve's Scheduled BO =====
+
+--- Seed 6 | Iter 30 | Spent 300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=32.51, pH=8.77, F1=0.00, F2=0.00, F3=0.30
+  GP prediction (pilot-eq) -> 2.732 +/- 0.397
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 1.3688
+
+--- Seed 6 | Iter 31 | Spent 800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=20.00, pH=9.50, F1=0.00, F2=0.53, F3=0.70
+  GP prediction (pilot-eq) -> 2.866 +/- 0.408
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 1.5169
+
+--- Seed 6 | Iter 32 | Spent 1300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=20.01, pH=9.15, F1=0.67, F2=0.00, F3=1.41
+  GP prediction (pilot-eq) -> 2.599 +/- 0.466
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.7408
+
+--- Seed 6 | Iter 33 | Spent 1800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=20.00, pH=7.87, F1=1.12, F2=0.00, F3=0.29
+  GP prediction (pilot-eq) -> 3.091 +/- 0.434
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.0528
+
+--- Seed 6 | Iter 34 | Spent 2300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=59.37, pH=8.78, F1=1.35, F2=2.00, F3=0.52
+  GP prediction (pilot-eq) -> 2.528 +/- 0.426
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.2052
+
+--- Seed 6 | Iter 35 | Spent 2800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.96, pH=7.72, F1=1.14, F2=0.38, F3=1.03
+  GP prediction (pilot-eq) -> 3.127 +/- 0.405
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 25.9030
+
+--- Seed 6 | Iter 36 | Spent 3300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=41.39, pH=7.89, F1=1.68, F2=0.37, F3=1.08
+  GP prediction (pilot-eq) -> 11.733 +/- 0.417
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Result -> Actual Y = 3.5645
+
+--- Seed 6 | Iter 37 | Spent 3800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.79, pH=8.71, F1=1.12, F2=0.06, F3=1.09
+  GP prediction (pilot-eq) -> 11.718 +/- 0.377
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 15.4853
+
+--- Seed 6 | Iter 38 | Spent 4300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.83, pH=7.64, F1=1.79, F2=0.42, F3=1.06
+  GP prediction (pilot-eq) -> 11.652 +/- 0.381
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 24.1423
+
+--- Seed 6 | Iter 39 | Spent 4800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.03, pH=7.68, F1=0.80, F2=0.97, F3=1.05
+  GP prediction (pilot-eq) -> 11.692 +/- 0.371
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 12.0138
+  *** NEW BEST PILOT Y: 12.0138 ***
+
+--- Seed 6 | Iter 40 | Spent 6800/15000 EUR | Best pilot Y so far: 12.014 ---
+  Candidate recipe -> T=36.22, pH=7.64, F1=0.64, F2=0.19, F3=1.06
+  GP prediction (pilot-eq) -> 11.849 +/- 0.371
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 14.7555
+  *** NEW BEST PILOT Y: 14.7555 ***
+
+--- Seed 6 | Iter 41 | Spent 8800/15000 EUR | Best pilot Y so far: 14.756 ---
+  Candidate recipe -> T=36.35, pH=7.59, F1=0.42, F2=0.05, F3=1.08
+  GP prediction (pilot-eq) -> 15.239 +/- 0.279
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 13.2858
+
+--- Seed 6 | Iter 42 | Spent 10800/15000 EUR | Best pilot Y so far: 14.756 ---
+  Candidate recipe -> T=36.24, pH=7.57, F1=0.81, F2=0.18, F3=1.08
+  GP prediction (pilot-eq) -> 14.580 +/- 0.727
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 14.0461
+
+--- Seed 6 | Iter 43 | Spent 12800/15000 EUR | Best pilot Y so far: 14.756 ---
+  Candidate recipe -> T=36.26, pH=7.68, F1=0.65, F2=0.37, F3=1.08
+  GP prediction (pilot-eq) -> 14.799 +/- 0.517
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 13.8883
+
+===== SEED 6 COMPLETE: Best pilot Y = 14.7555 g/L, Total spent = 14800 EUR, Pilot evals = 5 =====
+
+===== SEED 7: STAGE A - cheap wide MICRO screening =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Screening complete: 30 micro runs, 300/15000 EUR spent so far.
+
+===== SEED 7: STAGE B & C - Merve's Scheduled BO =====
+
+--- Seed 7 | Iter 30 | Spent 300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=37.96, pH=8.70, F1=1.35, F2=0.14, F3=0.78
+  GP prediction (pilot-eq) -> 3.209 +/- 0.240
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 4.4716
+
+--- Seed 7 | Iter 31 | Spent 800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=38.71, pH=9.50, F1=1.19, F2=0.34, F3=0.51
+  GP prediction (pilot-eq) -> 2.959 +/- 0.221
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.1841
+
+--- Seed 7 | Iter 32 | Spent 1300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.71, pH=8.93, F1=1.44, F2=0.51, F3=0.41
+  GP prediction (pilot-eq) -> 3.120 +/- 0.196
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 7.2100
+
+--- Seed 7 | Iter 33 | Spent 1800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=40.23, pH=9.19, F1=1.47, F2=0.33, F3=0.54
+  GP prediction (pilot-eq) -> 3.120 +/- 0.184
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.1044
+
+--- Seed 7 | Iter 34 | Spent 2300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.33, pH=8.69, F1=1.44, F2=0.47, F3=0.47
+  GP prediction (pilot-eq) -> 3.364 +/- 0.128
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 12.5272
+
+--- Seed 7 | Iter 35 | Spent 2800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.31, pH=8.60, F1=1.45, F2=0.48, F3=0.47
+  GP prediction (pilot-eq) -> 5.597 +/- 0.205
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 15.2058
+
+--- Seed 7 | Iter 36 | Spent 3300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.21, pH=8.46, F1=1.47, F2=0.49, F3=0.47
+  GP prediction (pilot-eq) -> 7.701 +/- 0.255
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 19.5208
+
+--- Seed 7 | Iter 37 | Spent 3800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.06, pH=8.34, F1=1.48, F2=0.51, F3=0.47
+  GP prediction (pilot-eq) -> 9.665 +/- 0.271
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 23.1705
+
+--- Seed 7 | Iter 38 | Spent 4300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.90, pH=8.22, F1=1.50, F2=0.53, F3=0.47
+  GP prediction (pilot-eq) -> 11.186 +/- 0.250
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 25.0750
+
+--- Seed 7 | Iter 39 | Spent 4800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.91, pH=8.14, F1=1.95, F2=0.53, F3=0.04
+  GP prediction (pilot-eq) -> 11.416 +/- 0.331
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 13.8173
+  *** NEW BEST PILOT Y: 13.8173 ***
+
+--- Seed 7 | Iter 40 | Spent 6800/15000 EUR | Best pilot Y so far: 13.817 ---
+  Candidate recipe -> T=49.96, pH=8.13, F1=2.00, F2=0.52, F3=0.57
+  GP prediction (pilot-eq) -> 13.542 +/- 0.491
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 1.3212
+
+--- Seed 7 | Iter 41 | Spent 8800/15000 EUR | Best pilot Y so far: 13.817 ---
+  Candidate recipe -> T=35.08, pH=8.11, F1=1.66, F2=0.52, F3=0.00
+  GP prediction (pilot-eq) -> 13.561 +/- 0.444
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 10.6805
+
+--- Seed 7 | Iter 42 | Spent 10800/15000 EUR | Best pilot Y so far: 13.817 ---
+  Candidate recipe -> T=36.31, pH=8.15, F1=2.00, F2=0.54, F3=0.13
+  GP prediction (pilot-eq) -> 14.086 +/- 0.261
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 13.2828
+
+--- Seed 7 | Iter 43 | Spent 12800/15000 EUR | Best pilot Y so far: 13.817 ---
+  Candidate recipe -> T=35.95, pH=8.21, F1=1.92, F2=0.52, F3=0.72
+  GP prediction (pilot-eq) -> 13.777 +/- 0.420
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 15.4879
+  *** NEW BEST PILOT Y: 15.4879 ***
+
+===== SEED 7 COMPLETE: Best pilot Y = 15.4879 g/L, Total spent = 14800 EUR, Pilot evals = 5 =====
+
+===== SEED 8: STAGE A - cheap wide MICRO screening =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Screening complete: 30 micro runs, 300/15000 EUR spent so far.
+
+===== SEED 8: STAGE B & C - Merve's Scheduled BO =====
+
+--- Seed 8 | Iter 30 | Spent 300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.77, pH=9.50, F1=0.57, F2=0.10, F3=0.51
+  GP prediction (pilot-eq) -> 3.113 +/- 0.174
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.4006
+
+--- Seed 8 | Iter 31 | Spent 800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=24.45, pH=9.50, F1=1.45, F2=0.00, F3=0.76
+  GP prediction (pilot-eq) -> 3.110 +/- 0.181
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.3678
+
+--- Seed 8 | Iter 32 | Spent 1300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=37.70, pH=8.62, F1=1.54, F2=0.13, F3=0.66
+  GP prediction (pilot-eq) -> 3.008 +/- 0.196
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 5.7300
+
+--- Seed 8 | Iter 33 | Spent 1800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.18, pH=8.52, F1=1.39, F2=0.43, F3=0.66
+  GP prediction (pilot-eq) -> 3.036 +/- 0.173
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 16.2395
+
+--- Seed 8 | Iter 34 | Spent 2300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=34.82, pH=8.40, F1=1.32, F2=0.53, F3=0.63
+  GP prediction (pilot-eq) -> 7.464 +/- 0.238
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 15.4458
+
+--- Seed 8 | Iter 35 | Spent 2800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=34.70, pH=8.56, F1=1.38, F2=0.46, F3=0.67
+  GP prediction (pilot-eq) -> 7.394 +/- 0.263
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 11.8276
+
+--- Seed 8 | Iter 36 | Spent 3300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.70, pH=8.38, F1=1.38, F2=0.42, F3=0.64
+  GP prediction (pilot-eq) -> 8.855 +/- 0.414
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 22.7137
+
+--- Seed 8 | Iter 37 | Spent 3800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.91, pH=8.29, F1=1.37, F2=0.41, F3=0.64
+  GP prediction (pilot-eq) -> 10.850 +/- 0.255
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 25.5033
+
+--- Seed 8 | Iter 38 | Spent 4300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.99, pH=8.20, F1=1.37, F2=0.40, F3=0.64
+  GP prediction (pilot-eq) -> 12.062 +/- 0.286
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Result -> Actual Y = 27.2626
+
+--- Seed 8 | Iter 39 | Spent 4800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.05, pH=8.15, F1=1.38, F2=0.40, F3=0.66
+  GP prediction (pilot-eq) -> 12.501 +/- 0.316
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 16.1617
+  *** NEW BEST PILOT Y: 16.1617 ***
+
+--- Seed 8 | Iter 40 | Spent 6800/15000 EUR | Best pilot Y so far: 16.162 ---
+  Candidate recipe -> T=39.41, pH=6.81, F1=1.37, F2=0.39, F3=0.81
+  GP prediction (pilot-eq) -> 2.131 +/- 3.115
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 1.3900
+
+--- Seed 8 | Iter 41 | Spent 8800/15000 EUR | Best pilot Y so far: 16.162 ---
+  Candidate recipe -> T=36.18, pH=8.09, F1=1.41, F2=0.44, F3=0.69
+  GP prediction (pilot-eq) -> 19.956 +/- 0.887
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 15.8812
+
+--- Seed 8 | Iter 42 | Spent 10800/15000 EUR | Best pilot Y so far: 16.162 ---
+  Candidate recipe -> T=42.92, pH=3.94, F1=0.45, F2=1.28, F3=1.36
+  GP prediction (pilot-eq) -> 2.228 +/- 3.529
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 1.5213
+
+--- Seed 8 | Iter 43 | Spent 12800/15000 EUR | Best pilot Y so far: 16.162 ---
+  Candidate recipe -> T=38.83, pH=9.14, F1=1.24, F2=0.01, F3=0.64
+  GP prediction (pilot-eq) -> 2.223 +/- 3.489
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 1.3410
+
+===== SEED 8 COMPLETE: Best pilot Y = 16.1617 g/L, Total spent = 14800 EUR, Pilot evals = 5 =====
+
+===== SEED 9: STAGE A - cheap wide MICRO screening =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  Screening complete: 30 micro runs, 300/15000 EUR spent so far.
+
+===== SEED 9: STAGE B & C - Merve's Scheduled BO =====
+
+--- Seed 9 | Iter 30 | Spent 300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=20.00, pH=9.50, F1=1.43, F2=1.40, F3=0.56
+  GP prediction (pilot-eq) -> 3.059 +/- 0.204
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.1122
+
+--- Seed 9 | Iter 31 | Spent 800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=27.54, pH=9.28, F1=1.47, F2=0.40, F3=0.64
+  GP prediction (pilot-eq) -> 3.001 +/- 0.214
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.2406
+
+--- Seed 9 | Iter 32 | Spent 1300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.90, pH=9.50, F1=1.61, F2=0.00, F3=0.56
+  GP prediction (pilot-eq) -> 3.027 +/- 0.204
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 3.0986
+
+--- Seed 9 | Iter 33 | Spent 1800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.34, pH=5.08, F1=1.82, F2=0.63, F3=1.85
+  GP prediction (pilot-eq) -> 2.185 +/- 0.407
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 8.0703
+
+--- Seed 9 | Iter 34 | Spent 2300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=41.10, pH=5.25, F1=1.88, F2=0.44, F3=1.85
+  GP prediction (pilot-eq) -> 3.435 +/- 0.239
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 4.2866
+
+--- Seed 9 | Iter 35 | Spent 2800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=36.22, pH=6.41, F1=1.71, F2=0.53, F3=1.41
+  GP prediction (pilot-eq) -> 3.760 +/- 0.236
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 6.2132
+
+--- Seed 9 | Iter 36 | Spent 3300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.54, pH=5.97, F1=1.83, F2=0.30, F3=1.66
+  GP prediction (pilot-eq) -> 3.453 +/- 0.231
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 8.4845
+
+--- Seed 9 | Iter 37 | Spent 3800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.78, pH=6.49, F1=1.83, F2=1.47, F3=1.96
+  GP prediction (pilot-eq) -> 3.625 +/- 0.223
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 6.5281
+
+--- Seed 9 | Iter 38 | Spent 4300/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.68, pH=9.32, F1=1.82, F2=0.02, F3=1.74
+  GP prediction (pilot-eq) -> 3.641 +/- 0.212
+  SCALE CHOSEN -> BENCH  (Scheduled Bench Region Finding)
+  Result -> Actual Y = 5.1289
+
+--- Seed 9 | Iter 39 | Spent 4800/15000 EUR | Best pilot Y so far: 3.131 ---
+  Candidate recipe -> T=35.94, pH=5.46, F1=1.84, F2=0.20, F3=0.98
+  GP prediction (pilot-eq) -> 3.679 +/- 0.195
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 4.9237
+  *** NEW BEST PILOT Y: 4.9237 ***
+
+--- Seed 9 | Iter 40 | Spent 6800/15000 EUR | Best pilot Y so far: 4.924 ---
+  Candidate recipe -> T=35.80, pH=4.56, F1=1.84, F2=0.00, F3=0.90
+  GP prediction (pilot-eq) -> 4.946 +/- 0.175
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 1.5395
+
+--- Seed 9 | Iter 41 | Spent 8800/15000 EUR | Best pilot Y so far: 4.924 ---
+  Candidate recipe -> T=36.13, pH=5.51, F1=1.87, F2=1.28, F3=1.12
+  GP prediction (pilot-eq) -> 4.802 +/- 0.215
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 4.0809
+
+--- Seed 9 | Iter 42 | Spent 10800/15000 EUR | Best pilot Y so far: 4.924 ---
+  Candidate recipe -> T=36.17, pH=5.50, F1=1.82, F2=0.04, F3=2.00
+  GP prediction (pilot-eq) -> 4.813 +/- 0.202
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 6.7882
+  *** NEW BEST PILOT Y: 6.7882 ***
+
+--- Seed 9 | Iter 43 | Spent 12800/15000 EUR | Best pilot Y so far: 6.788 ---
+  Candidate recipe -> T=36.51, pH=5.51, F1=1.78, F2=0.00, F3=2.00
+  GP prediction (pilot-eq) -> 6.648 +/- 0.222
+  SCALE CHOSEN -> PILOT  (Scheduled Pilot Peak Climbing (Merve Strategy))
+  Result -> Actual Y = 2.5240
+
+===== SEED 9 COMPLETE: Best pilot Y = 6.7882 g/L, Total spent = 14800 EUR, Pilot evals = 5 =====
+
+=====================================
+ MULTI-SEED BO CAMPAIGN COMPLETE
+=====================================
+ seed  best_pilot_Y  total_cost_eur  pilot_evaluations  reached_target
+    0     12.227582         14800.0                  5           False
+    1     16.331094         14800.0                  5            True
+    2     13.906302         14800.0                  5           False
+    3     15.025362         14800.0                  5            True
+    4     15.171596         14800.0                  5            True
+    5     21.036648         14800.0                  5            True
+    6     14.755502         14800.0                  5            True
+    7     15.487908         14800.0                  5            True
+    8     16.161727         14800.0                  5            True
+    9      6.788194         14800.0                  5           False
+
+Mean best pilot Y : 14.689 +/- 3.578 g/L
+Mean total cost   : 14800.0 +/- 0.0 EUR
+Felix benchmark   : mean best pilot Y = 14 g/L @ mean cost = 15000 EUR
+
+Generating Phase 3 visualizations...
+ -> Saved 'compare_vs_baseline.png' (BO vs Phase 2 baseline)
+ -> Saved 'bo_trajectory.png', 'bo_scale_selection_pattern.png', 'bo_vs_felix_benchmark.png'
