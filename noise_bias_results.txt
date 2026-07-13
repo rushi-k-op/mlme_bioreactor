@@ -1,0 +1,12 @@
+=====================================
+ NOISE AND BIAS ANALYSIS
+=====================================
+
+--- Measurement Noise (Coefficient of Variation) ---
+Scale: micro | Relative Noise (CV): 12.46%
+Scale: bench | Relative Noise (CV): 1.07%
+Scale: pilot | Relative Noise (CV): 0.34%
+
+--- Measurement Bias (Relative to Pilot) ---
+Micro Scale - Average Bias: -1.5228 | Absolute Bias: 1.5228
+Bench Scale - Average Bias: 2.2488 | Absolute Bias: 2.2488

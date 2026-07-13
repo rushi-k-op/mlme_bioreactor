@@ -1,0 +1,13 @@
+=====================================
+ NOISE AND BIAS ANALYSIS
+=====================================
+
+--- Measurement Noise ---
+Scale: micro | Average Variance (Noise): 0.000779
+Scale: bench | Average Variance (Noise): 0.004516
+Scale: pilot | Average Variance (Noise): 0.000026
+
+--- Measurement Bias (Relative to Pilot) ---
+Micro Scale - Average Bias: -1.3230 | Absolute Bias: 1.3230
+Bench Scale - Average Bias: 2.0584 | Absolute Bias: 2.0584
+Pilot Scale - Average Bias: 0.0000 | Absolute Bias: 0.0000
