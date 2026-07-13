@@ -1,0 +1,464 @@
+
+===== TASK A1: Acquisition function comparison (EI vs UCB) =====
+[EI/pooled_gp/multi_fidelity] seed 0 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 0 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 9.3389 ***
+[EI/pooled_gp/multi_fidelity] seed 0 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/pooled_gp/multi_fidelity] SEED 0 DONE: best pilot Y=9.3389, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 1 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 1 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 10.5415 ***
+[EI/pooled_gp/multi_fidelity] seed 1 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/pooled_gp/multi_fidelity] SEED 1 DONE: best pilot Y=10.5415, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 2 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 2 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 2 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/pooled_gp/multi_fidelity] SEED 2 DONE: best pilot Y=3.1309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 3 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/pooled_gp/multi_fidelity] SEED 3 DONE: best pilot Y=3.1309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 4 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 4 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 4 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 9.4283 ***
+===== [EI/pooled_gp/multi_fidelity] SEED 4 DONE: best pilot Y=9.4283, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[UCB/pooled_gp/multi_fidelity] seed 0 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[UCB/pooled_gp/multi_fidelity] seed 0 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[UCB/pooled_gp/multi_fidelity] seed 0 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [UCB/pooled_gp/multi_fidelity] SEED 0 DONE: best pilot Y=3.1309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[UCB/pooled_gp/multi_fidelity] seed 1 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 5.6549 ***
+[UCB/pooled_gp/multi_fidelity] seed 1 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[UCB/pooled_gp/multi_fidelity] seed 1 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [UCB/pooled_gp/multi_fidelity] SEED 1 DONE: best pilot Y=5.6549, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[UCB/pooled_gp/multi_fidelity] seed 2 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 11.7123 ***
+[UCB/pooled_gp/multi_fidelity] seed 2 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[UCB/pooled_gp/multi_fidelity] seed 2 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [UCB/pooled_gp/multi_fidelity] SEED 2 DONE: best pilot Y=11.7123, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[UCB/pooled_gp/multi_fidelity] seed 3 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[UCB/pooled_gp/multi_fidelity] seed 3 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[UCB/pooled_gp/multi_fidelity] seed 3 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [UCB/pooled_gp/multi_fidelity] SEED 3 DONE: best pilot Y=3.1309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[UCB/pooled_gp/multi_fidelity] seed 4 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[UCB/pooled_gp/multi_fidelity] seed 4 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[UCB/pooled_gp/multi_fidelity] seed 4 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 6.1626 ***
+===== [UCB/pooled_gp/multi_fidelity] SEED 4 DONE: best pilot Y=6.1626, spent=6300, pilot_evals=3 =====
+            best_pilot_Y           total_cost     
+                    mean       std       mean  std
+acquisition                                       
+EI              7.114086  3.666906     6300.0  0.0
+UCB             5.958326  3.508265     6300.0  0.0
+ -> Saved 'a1_acquisition_comparison.png'
+
+===== TASK A2: Surrogate model class comparison =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 0 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 0 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 11.4933 ***
+[EI/pooled_gp/multi_fidelity] seed 0 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/pooled_gp/multi_fidelity] SEED 0 DONE: best pilot Y=11.4933, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 1 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 1 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 9.4206 ***
+[EI/pooled_gp/multi_fidelity] seed 1 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/pooled_gp/multi_fidelity] SEED 1 DONE: best pilot Y=9.4206, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 2 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 2 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 2 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 14.3309 ***
+===== [EI/pooled_gp/multi_fidelity] SEED 2 DONE: best pilot Y=14.3309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 3 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/pooled_gp/multi_fidelity] SEED 3 DONE: best pilot Y=3.1309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 4 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 4 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 4 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/pooled_gp/multi_fidelity] SEED 4 DONE: best pilot Y=3.1309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/per_scale_gp/multi_fidelity] seed 0 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/per_scale_gp/multi_fidelity] seed 0 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/per_scale_gp/multi_fidelity] seed 0 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/per_scale_gp/multi_fidelity] SEED 0 DONE: best pilot Y=3.1309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/per_scale_gp/multi_fidelity] seed 1 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/per_scale_gp/multi_fidelity] seed 1 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/per_scale_gp/multi_fidelity] seed 1 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/per_scale_gp/multi_fidelity] SEED 1 DONE: best pilot Y=3.1309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/per_scale_gp/multi_fidelity] seed 2 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/per_scale_gp/multi_fidelity] seed 2 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/per_scale_gp/multi_fidelity] seed 2 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/per_scale_gp/multi_fidelity] SEED 2 DONE: best pilot Y=3.1309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/per_scale_gp/multi_fidelity] seed 3 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/per_scale_gp/multi_fidelity] seed 3 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/per_scale_gp/multi_fidelity] seed 3 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/per_scale_gp/multi_fidelity] SEED 3 DONE: best pilot Y=3.1309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/per_scale_gp/multi_fidelity] seed 4 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/per_scale_gp/multi_fidelity] seed 4 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/per_scale_gp/multi_fidelity] seed 4 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/per_scale_gp/multi_fidelity] SEED 4 DONE: best pilot Y=3.1309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/rf/multi_fidelity] seed 0 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/rf/multi_fidelity] seed 0 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/rf/multi_fidelity] seed 0 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/rf/multi_fidelity] SEED 0 DONE: best pilot Y=3.1309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/rf/multi_fidelity] seed 1 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 8.5328 ***
+[EI/rf/multi_fidelity] seed 1 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/rf/multi_fidelity] seed 1 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/rf/multi_fidelity] SEED 1 DONE: best pilot Y=8.5328, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/rf/multi_fidelity] seed 2 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/rf/multi_fidelity] seed 2 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/rf/multi_fidelity] seed 2 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/rf/multi_fidelity] SEED 2 DONE: best pilot Y=3.1309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/rf/multi_fidelity] seed 3 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/rf/multi_fidelity] seed 3 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/rf/multi_fidelity] seed 3 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/rf/multi_fidelity] SEED 3 DONE: best pilot Y=3.1309, spent=6300, pilot_evals=3 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/rf/multi_fidelity] seed 4 iter 30 spent 300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 6.4633 ***
+[EI/rf/multi_fidelity] seed 4 iter 31 spent 2300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 7.4119 ***
+[EI/rf/multi_fidelity] seed 4 iter 32 spent 4300/8000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/rf/multi_fidelity] SEED 4 DONE: best pilot Y=7.4119, spent=6300, pilot_evals=3 =====
+             best_pilot_Y           total_cost     
+                     mean       std       mean  std
+surrogate                                          
+per_scale_gp     3.130854  0.000000     6300.0  0.0
+pooled_gp        8.301312  5.031529     6300.0  0.0
+rf               5.067471  2.681271     6300.0  0.0
+ -> Saved 'a2_surrogate_comparison.png'
+
+===== TASK A3: Multi-fidelity vs pilot-only BO, equal total budget =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 0 iter 30 spent 300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 0 iter 31 spent 800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 0 iter 32 spent 1300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 0 iter 33 spent 1800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 0 iter 34 spent 2300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 0 iter 35 spent 2800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 0 iter 36 spent 3300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 0 iter 37 spent 3800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 0 iter 38 spent 4300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 0 iter 39 spent 4800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 4.7608 ***
+[EI/pooled_gp/multi_fidelity] seed 0 iter 40 spent 6800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 6.7908 ***
+[EI/pooled_gp/multi_fidelity] seed 0 iter 41 spent 8800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 0 iter 42 spent 10800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 0 iter 43 spent 12800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/pooled_gp/multi_fidelity] SEED 0 DONE: best pilot Y=6.7908, spent=14800, pilot_evals=5 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 1 iter 30 spent 300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 1 iter 31 spent 800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 1 iter 32 spent 1300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 1 iter 33 spent 1800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 1 iter 34 spent 2300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 1 iter 35 spent 2800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 1 iter 36 spent 3300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 1 iter 37 spent 3800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 1 iter 38 spent 4300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 1 iter 39 spent 4800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 12.7536 ***
+[EI/pooled_gp/multi_fidelity] seed 1 iter 40 spent 6800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 1 iter 41 spent 8800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 1 iter 42 spent 10800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 12.8230 ***
+[EI/pooled_gp/multi_fidelity] seed 1 iter 43 spent 12800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/pooled_gp/multi_fidelity] SEED 1 DONE: best pilot Y=12.8230, spent=14800, pilot_evals=5 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 2 iter 30 spent 300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 2 iter 31 spent 800/15000 -> BENCH (Scheduled Bench Region Finding)
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 2 iter 32 spent 1300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 2 iter 33 spent 1800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 2 iter 34 spent 2300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 2 iter 35 spent 2800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 2 iter 36 spent 3300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 2 iter 37 spent 3800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 2 iter 38 spent 4300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 2 iter 39 spent 4800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 19.8135 ***
+[EI/pooled_gp/multi_fidelity] seed 2 iter 40 spent 6800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 2 iter 41 spent 8800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 20.0506 ***
+[EI/pooled_gp/multi_fidelity] seed 2 iter 42 spent 10800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 2 iter 43 spent 12800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 20.4567 ***
+===== [EI/pooled_gp/multi_fidelity] SEED 2 DONE: best pilot Y=20.4567, spent=14800, pilot_evals=5 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 3 iter 30 spent 300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 31 spent 800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 32 spent 1300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 33 spent 1800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 34 spent 2300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 35 spent 2800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 36 spent 3300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 37 spent 3800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 38 spent 4300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 39 spent 4800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 4.3118 ***
+[EI/pooled_gp/multi_fidelity] seed 3 iter 40 spent 6800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 41 spent 8800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 7.7728 ***
+[EI/pooled_gp/multi_fidelity] seed 3 iter 42 spent 10800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 3 iter 43 spent 12800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 8.3515 ***
+===== [EI/pooled_gp/multi_fidelity] SEED 3 DONE: best pilot Y=8.3515, spent=14800, pilot_evals=5 =====
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 4 iter 30 spent 300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 4 iter 31 spent 800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 4 iter 32 spent 1300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 4 iter 33 spent 1800/15000 -> BENCH (Scheduled Bench Region Finding)
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+[EI/pooled_gp/multi_fidelity] seed 4 iter 34 spent 2300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 4 iter 35 spent 2800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 4 iter 36 spent 3300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 4 iter 37 spent 3800/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 4 iter 38 spent 4300/15000 -> BENCH (Scheduled Bench Region Finding)
+[EI/pooled_gp/multi_fidelity] seed 4 iter 39 spent 4800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 11.1796 ***
+[EI/pooled_gp/multi_fidelity] seed 4 iter 40 spent 6800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 4 iter 41 spent 8800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+  *** NEW BEST PILOT Y: 12.6511 ***
+[EI/pooled_gp/multi_fidelity] seed 4 iter 42 spent 10800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+[EI/pooled_gp/multi_fidelity] seed 4 iter 43 spent 12800/15000 -> PILOT (Scheduled Pilot Peak Climbing)
+===== [EI/pooled_gp/multi_fidelity] SEED 4 DONE: best pilot Y=12.6511, spent=14800, pilot_evals=5 =====
+[EI/per_scale_gp/pilot_only] seed 0 iter 0 spent 0/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 0 iter 1 spent 2000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 0 iter 2 spent 4000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 0 iter 3 spent 6000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 0 iter 4 spent 8000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+  *** NEW BEST PILOT Y: 6.3384 ***
+[EI/per_scale_gp/pilot_only] seed 0 iter 5 spent 10000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 0 iter 6 spent 12000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+===== [EI/per_scale_gp/pilot_only] SEED 0 DONE: best pilot Y=6.3384, spent=14000, pilot_evals=7 =====
+[EI/per_scale_gp/pilot_only] seed 1 iter 0 spent 0/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 1 iter 1 spent 2000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 1 iter 2 spent 4000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 1 iter 3 spent 6000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 1 iter 4 spent 8000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 1 iter 5 spent 10000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 1 iter 6 spent 12000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+  *** NEW BEST PILOT Y: 4.9957 ***
+===== [EI/per_scale_gp/pilot_only] SEED 1 DONE: best pilot Y=4.9957, spent=14000, pilot_evals=7 =====
+[EI/per_scale_gp/pilot_only] seed 2 iter 0 spent 0/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 2 iter 1 spent 2000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 2 iter 2 spent 4000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 2 iter 3 spent 6000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 2 iter 4 spent 8000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+  *** NEW BEST PILOT Y: 4.7310 ***
+[EI/per_scale_gp/pilot_only] seed 2 iter 5 spent 10000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+  [rate-limited, sleeping 1.0s]
+  [rate-limited, sleeping 2.5s]
+  [rate-limited, sleeping 6.2s]
+  [rate-limited, sleeping 15.6s]
+  [rate-limited, sleeping 39.1s]
+  *** NEW BEST PILOT Y: 7.3621 ***
+[EI/per_scale_gp/pilot_only] seed 2 iter 6 spent 12000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+  *** NEW BEST PILOT Y: 10.2115 ***
+===== [EI/per_scale_gp/pilot_only] SEED 2 DONE: best pilot Y=10.2115, spent=14000, pilot_evals=7 =====
+[EI/per_scale_gp/pilot_only] seed 3 iter 0 spent 0/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 3 iter 1 spent 2000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 3 iter 2 spent 4000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 3 iter 3 spent 6000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 3 iter 4 spent 8000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 3 iter 5 spent 10000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+  *** NEW BEST PILOT Y: 7.0539 ***
+[EI/per_scale_gp/pilot_only] seed 3 iter 6 spent 12000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+  *** NEW BEST PILOT Y: 8.8318 ***
+===== [EI/per_scale_gp/pilot_only] SEED 3 DONE: best pilot Y=8.8318, spent=14000, pilot_evals=7 =====
+[EI/per_scale_gp/pilot_only] seed 4 iter 0 spent 0/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 4 iter 1 spent 2000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 4 iter 2 spent 4000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 4 iter 3 spent 6000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 4 iter 4 spent 8000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 4 iter 5 spent 10000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+[EI/per_scale_gp/pilot_only] seed 4 iter 6 spent 12000/15000 -> PILOT (Pilot-only adaptive BO (single-fidelity baseline))
+  *** NEW BEST PILOT Y: 3.8963 ***
+===== [EI/per_scale_gp/pilot_only] SEED 4 DONE: best pilot Y=3.8963, spent=14000, pilot_evals=7 =====
+               best_pilot_Y           total_cost      pilot_evals     
+                       mean       std       mean  std        mean  std
+scale_mode                                                            
+multi_fidelity    12.214608  5.311143    14800.0  0.0         5.0  0.0
+pilot_only         6.854758  2.629237    14000.0  0.0         7.0  0.0
+ -> Saved 'a3_multifidelity_vs_pilot_only.png'
+
+===== TASK A4: Full multi-seed scale-selection visualization (no API calls) =====
+ -> Saved 'a4_scale_selection_all_seeds.png' and 'a4_scale_transition_matrix.png'
+ Note: since the scale choice follows a fixed budget-based schedule ('bench until
+ exactly 5 pilot runs remain, then pilot'), transitions are essentially deterministic
+ and driven by REMAINING BUDGET, not by GP uncertainty. This is worth discussing in the
+ report as a limitation/design choice versus a fully learned scale-selection policy.
+
+===== TASK A5: Global sensitivity analysis (Sobol indices, no API calls) =====
+variable  S1_first_order  ST_total_order
+       T       -0.444019        0.645908
+      pH       -0.441775        1.099510
+      F1       -0.238281        0.640037
+      F2        0.170127        1.090709
+      F3       -0.385856        0.288296
+ -> Saved 'a5_sobol_sensitivity.csv' and 'a5_sobol_sensitivity.png'
+ Interpretation: ST >> S1 for a variable means it mostly matters through INTERACTIONS
+ with other variables (not on its own) - worth calling out explicitly in the report.
