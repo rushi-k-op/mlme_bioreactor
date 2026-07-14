@@ -1,6 +1,24 @@
+# Local environment
 venv/
 __pycache__/
-*.pyc
-data/*.csv
-.env
+
+# Local docs
+report/
+ALL_IN_ONE.pdf
 start.txt
+
+# Ignore everything else in the root
+*
+
+# But keep these files
+!.gitignore
+!basic_client.py
+!BO_Implementation.ipynb
+!LIVE_BO_Loop.ipynb
+!history_A.csv
+!history_B.csv
+!history_combined.csv
+!history_random.csv
+!task1_2_data.csv
+!ALL_IN_ONE.ipynb
+!README.md
