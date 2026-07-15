@@ -57,7 +57,7 @@ BOUNDS_LIST = [(20.0, 60.0), (3.0, 9.5), (0.0, 2.0), (0.0, 2.0), (0.0, 2.0)]
 VAR_NAMES = ["T", "pH", "F1", "F2", "F3"]
 SCALE_COSTS = {"micro": 10, "bench": 500, "pilot": 2000}
 
-MICRO_SCREEN_BUDGET = 300.0   # Reduced to 30 runs to save budget
+MICRO_SCREEN_BUDGET = 2500.0   # 250 micro runs - much better 5D coverage (was 300/30 runs)
 MIN_RESERVE_FOR_PILOT = SCALE_COSTS["pilot"]  
 
 DEFAULT_NOISE = {"micro": 5e-3, "bench": 5e-3, "pilot": 1e-3}  
@@ -148,10 +148,10 @@ def to_pilot_equivalent(df_history: pd.DataFrame, calib: dict, raw_noise: dict):
 # ==========================================
 # GP + ACQUISITION
 # ==========================================
-def build_gp(X, y_eq, var_eq):
+def build_gp(X, y_eq, var_eq, random_state=None):
     kernel = C(1.0, (1e-2, 1e3)) * RBF(length_scale=[0.3] * 5, length_scale_bounds=(0.05, 2.0))
     gpr = GaussianProcessRegressor(kernel=kernel, alpha=var_eq, n_restarts_optimizer=6,
-                                    normalize_y=True)
+                                    normalize_y=True, random_state=random_state)
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
         gpr.fit(X, y_eq)
@@ -168,7 +168,7 @@ def expected_improvement(X_norm, best_y_eq, gpr, xi=0.05):
         ei[sigma <= 1e-9] = 0.0
     return ei
 
-def optimize_acquisition(best_y_eq, gpr, X_history=None):
+def optimize_acquisition(best_y_eq, gpr, X_history=None, seed=None):
     bounds = [(0.0, 1.0)] * 5
     from scipy.optimize import differential_evolution, minimize
 
@@ -188,8 +188,9 @@ def optimize_acquisition(best_y_eq, gpr, X_history=None):
                 best_val = v
                 best_x = x_h.copy()
 
-    # 2. Global Search: Run Differential Evolution
-    res = differential_evolution(objective, bounds, maxiter=50, popsize=20, polish=True)
+    # 2. Global Search: Run Differential Evolution (seeded for reproducibility)
+    res = differential_evolution(objective, bounds, maxiter=50, popsize=20,
+                                  polish=True, seed=seed)
     
     # 3. Guardrail: If the optimizer got lost, fall back to our historical best
     if best_x is None or res.fun < best_val:
@@ -261,11 +262,15 @@ def run_bo_campaign(client, seed: int, budget: float, base_history: pd.DataFrame
             log("  Not enough data yet to fit GP, skipping iteration.")
             break
 
-        gpr = build_gp(X, y_eq, var_eq)
+        # Derive a fresh, deterministic sub-seed for this iteration from the
+        # campaign's own RNG stream, so re-running the same `seed` always
+        # reproduces the same GP fit and the same DE search.
+        iter_seed = int(rng.integers(0, 2**31 - 1))
+        gpr = build_gp(X, y_eq, var_eq, random_state=iter_seed)
         best_y_eq_so_far = float(np.max(y_eq))
         
         # Optimize Expected Improvement using our memory-reinforced algorithm
-        next_norm = optimize_acquisition(best_y_eq_so_far, gpr, X_history=X)
+        next_norm = optimize_acquisition(best_y_eq_so_far, gpr, X_history=X, seed=iter_seed)
         pred_mean, pred_std = gpr.predict(next_norm.reshape(1, -1), return_std=True)
         recipe = recipe_dict_from_norm(next_norm)
 
